@@ -1,0 +1,22 @@
+{
+    "presets": [
+        "react",
+        "es2017",
+        "stage-0"
+    ],
+    "plugins": [
+        "transform-es2015-modules-commonjs",
+        "transform-decorators-legacy",
+        ["babel-plugin-transform-require-ignore", {"extensions": ".css"}],
+        ["module-resolver", {
+            "alias": {
+                "^API(.*)": "./app\\1",
+                "^Module(.*)": "./app/modules\\1",
+                "^Component(.*)": "./app/components\\1"
+            }
+        }],
+        ["transform-define", {
+            "DEBUG": false
+        }]
+    ]
+}
