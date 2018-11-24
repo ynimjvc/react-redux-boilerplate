@@ -1,6 +1,7 @@
 # contents
 - babel (react, es2017, stage-0, transform-decorators-legacy)
 - react
+- react-router-dom
 - redux
 - thunk
 - redux-logger
