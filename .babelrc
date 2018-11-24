@@ -10,7 +10,6 @@
         ["babel-plugin-transform-require-ignore", {"extensions": ".css"}],
         ["module-resolver", {
             "alias": {
-                "^API(.*)": "./app\\1",
                 "^Module(.*)": "./app/modules\\1",
                 "^Component(.*)": "./app/components\\1"
             }
