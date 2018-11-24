@@ -15,10 +15,7 @@ module.exports = (defined = {}) => {
                 'redux',
                 'redux-logger',
                 'redux-thunk',
-                'immutability-helper',
-                'uuid',
-                'accounting-js',
-                'moment'
+                'immutability-helper'
             ],
         },
         output: {
@@ -28,8 +25,7 @@ module.exports = (defined = {}) => {
         resolve: {
             alias: {
                 'Component': path.join(__dirname, '..', 'app', 'components'),
-                'Module': path.join(__dirname, '..', 'app', 'modules'),
-                'Actions': path.join(__dirname, '..', 'app', 'actions')
+                'Module': path.join(__dirname, '..', 'app', 'modules')
             },
             modules: ['bower_components', 'node_modules']
         },
