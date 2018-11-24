@@ -31,7 +31,7 @@ npm run developer
 npm run production
 ```
 
-#run linter
+# run linter
 
 ```
 npm run linter
