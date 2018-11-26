@@ -1,3 +1,3 @@
-export default function ModulesReduxConnector(store) {
-    return {}
+export default function ModulesReduxConnector() {
+    return {};
 }

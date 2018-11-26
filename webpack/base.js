@@ -66,7 +66,7 @@ module.exports = (defined = {}) => {
                         babelrc: false,
                         presets: [
                             'react',
-                            'es2017',
+                            'env',
                             'stage-0'
                         ],
                         plugins: [

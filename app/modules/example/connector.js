@@ -1,3 +1,3 @@
 export default function ExampleConnector(store) {
-    return store.ExampleModule
+    return store.Example;
 }
